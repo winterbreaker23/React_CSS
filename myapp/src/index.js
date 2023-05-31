@@ -13,8 +13,23 @@ const Header = () => {
     </>
   );
 }
+
+const Header2 = () => {
+  const myStyle = {
+    color: "white",
+    backgroundColor: "DodgerBlue",
+    padding: "10px",
+    fontFamily: "Sans-Serif"
+  };
+  return (
+    <>
+      <h1 style={myStyle}>Hello Style!</h1>
+      <p>Add a little style!</p>
+    </>
+  );
+}
 root.render(
- <Header/>
+ <Header2/>
 );
 
 // If you want to start measuring performance in your app, pass a function
