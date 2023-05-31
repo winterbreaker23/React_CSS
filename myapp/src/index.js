@@ -5,10 +5,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
+const Header = () => {
+  return (
+    <>
+      <h1 style={{backgroundColor: "lightblue", color:"red"}}>Hello Style!</h1>
+      <p>Add a little style!</p>
+    </>
+  );
+}
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+ <Header/>
 );
 
 // If you want to start measuring performance in your app, pass a function
